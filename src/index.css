@@ -1,0 +1,109 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  height: 60vh;
+  width: 100vw;
+  background: url("/hospital-management/public/hosp2.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Navbar overlapping the background */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: rgba(53, 56, 67, 0.8); /* semi-transparent blue */
+  color: rgb(204, 56, 56);
+  z-index: 10;
+}
+
+nav a,
+nav button {
+  color: rgb(225, 157, 84);
+  text-decoration: none;
+  margin-right: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav button:hover {
+  opacity: 0.8;
+}
+
+nav button {
+  border: none;
+  background: #57560d;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+nav button:hover {
+  opacity: 0.8;
+}
+
+
+/* Form styling */
+input, select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 6px 4px;
+  width: 200px;
+}
+
+button {
+  border: none;
+  padding: 8px 14px;
+  margin: 6px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button.bg-green-600 {
+  background-color: #16a34a;
+  color: white;
+}
+
+button.bg-purple-600 {
+  background-color: #9333ea;
+  color: white;
+}
+
+button.bg-blue-600 {
+  background-color: #2563eb;
+  color: white;
+}
+
+button.bg-red-600 {
+  background-color: #dc2626;
+  color: white;
+}
+
+/* List cards */
+ul {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #e97a7a;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+}
