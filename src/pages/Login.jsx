@@ -31,21 +31,21 @@ export default function Login({ onLogin }) {
   };
 
   return (
-   <div className="login-page">
+    <div className="login-page"
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         minHeight: "80vh",
       }}
-     <div className="hero-section">
+    > <div className="hero-section">
         <div className="hero-overlay">
           <h1>Lax Hospital</h1>
           <p>Your health is our priority. We provide world-class medical care.</p>
           
         </div>
       </div>
-     <div className="login-card">
+      <div
         style={{
           background: "rgba(255, 255, 255, 0.95)",
           padding: "40px",
@@ -54,8 +54,8 @@ export default function Login({ onLogin }) {
           width: "350px",
           textAlign: "center",
         }}
-  
-         
+      >
+         <div className="login-card">
         <h2 style={{ color: "#2563eb", marginBottom: "10px" }}>
           Hospital Management Portal
         </h2>
@@ -116,5 +116,6 @@ export default function Login({ onLogin }) {
         </p>
       </div>
     </div>
+   </div>
   );
 }
