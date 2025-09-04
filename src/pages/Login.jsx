@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { GoogleLogin } from "@react-oauth/google";
+import "./Login.css";
 
 export default function Login({ onLogin }) {
   const [username, setUsername] = useState("");
@@ -30,21 +31,21 @@ export default function Login({ onLogin }) {
   };
 
   return (
-    <div
+   <div className="login-page">
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         minHeight: "80vh",
       }}
-    > <div className="hero-section">
+     <div className="hero-section">
         <div className="hero-overlay">
           <h1>Lax Hospital</h1>
           <p>Your health is our priority. We provide world-class medical care.</p>
           
         </div>
       </div>
-      <div
+     <div className="login-card">
         style={{
           background: "rgba(255, 255, 255, 0.95)",
           padding: "40px",
@@ -53,7 +54,8 @@ export default function Login({ onLogin }) {
           width: "350px",
           textAlign: "center",
         }}
-      >
+  
+         
         <h2 style={{ color: "#2563eb", marginBottom: "10px" }}>
           Hospital Management Portal
         </h2>

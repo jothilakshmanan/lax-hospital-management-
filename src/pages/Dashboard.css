@@ -68,3 +68,92 @@
   }
 
 }
+/* Tablet screens (≤768px) */
+@media (max-width: 768px) {
+  .dashboard-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .dashboard-cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 18px;
+  }
+
+  .appointments-table th,
+  .appointments-table td {
+    font-size: 14px;
+    padding: 6px;
+  }
+}
+
+/* Small mobile screens (≤480px) */
+@media (max-width: 480px) {
+  .dashboard-container {
+    padding: 10px;
+  }
+
+  .dashboard-title {
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .card h3 {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+
+  .section-title {
+    font-size: 16px;
+  }
+
+  .appointments-table {
+    font-size: 12px;
+  }
+
+  .appointments-table th,
+  .appointments-table td {
+    padding: 5px;
+  }
+}
+
+/* Large screens (desktops ≥1200px) */
+@media (min-width: 1200px) {
+  .dashboard-cards {
+    gap: 30px;
+  }
+
+  .card {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 24px;
+  }
+}
+

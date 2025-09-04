@@ -185,3 +185,131 @@ h2 {
   margin-top: 20px;
   font-size: 0.9rem;
 }
+
+/* Tablet screens (≤768px) */
+@media (max-width: 768px) {
+
+  /* Services Section */
+  .services-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .service-card {
+    width: 80%;
+    padding: 15px;
+  }
+
+  /* Team Section */
+  .team-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-card {
+    width: 60%;
+    padding: 15px;
+  }
+
+  .team-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Testimonials Section */
+  .testimonial-card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  /* Appointment Section */
+  .appointment-section button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  /* Health Tips Section */
+  .health-tips-section ul {
+    width: 90%;
+    padding-left: 15px;
+  }
+
+  /* Footer Section */
+  .footer-columns {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-column {
+    flex: 1 1 100%;
+  }
+}
+
+/* Mobile screens (≤480px) */
+@media (max-width: 480px) {
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Services Section */
+  .service-card {
+    width: 90%;
+    padding: 10px;
+  }
+
+  /* Team Section */
+  .team-card {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .team-card img {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Testimonials Section */
+  .testimonial-card {
+    width: 95%;
+    padding: 10px;
+  }
+
+  /* Appointment Section */
+  .appointment-section button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  /* Health Tips Section */
+  .health-tips-section ul {
+    width: 95%;
+    padding-left: 10px;
+  }
+
+  /* Footer Section */
+  .footer-columns {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  .enquiry-column form input,
+  .enquiry-column form textarea {
+    padding: 6px;
+  }
+
+  .enquiry-column form button {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .footer-copy {
+    font-size: 0.8rem;
+  }
+}

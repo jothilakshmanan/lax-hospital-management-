@@ -1,5 +1,4 @@
-
-
+/* Default styles (already you have) */
 .nav-link {
   color: white;
   text-decoration: none;
@@ -23,4 +22,36 @@
 
 .logout-btn:hover {
   background-color: #cc0000;
+}
+
+/* Media Queries */
+
+/* Tablet screens */
+@media (max-width: 768px) {
+  .nav-link {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .logout-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .nav-link {
+    display: block;   /* stack vertically */
+    margin: 8px 0;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .logout-btn {
+    width: 100%;      /* full width button */
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }

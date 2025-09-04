@@ -1,0 +1,51 @@
+
+/* Media Queries */
+
+/* Tablet screens */
+@media (max-width: 768px) {
+  .hero-overlay h1 {
+    font-size: 40px;
+  }
+
+  .hero-overlay p {
+    font-size: 16px;
+  }
+
+  .login-card {
+    padding: 30px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .login-page {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 28px;
+  }
+
+  .hero-overlay p {
+    font-size: 14px;
+  }
+
+  .login-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .login-card h2 {
+    font-size: 18px;
+  }
+
+  .login-card p {
+    font-size: 12px;
+  }
+
+  .login-card form input,
+  .login-card form button {
+    font-size: 14px;
+  }
+}

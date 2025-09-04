@@ -159,3 +159,91 @@ form button:hover {
 .hero-overlay button:hover {
   background-color: #d81da6;
 }
+/* 📱 Mobile first responsive design */
+
+/* Tablets and smaller desktops */
+@media (max-width: 1024px) {
+  .hero-overlay h1 {
+    font-size: 60px; /* reduce heading size */
+  }
+
+  .hero-overlay p {
+    font-size: 22px;
+  }
+
+  .hero-overlay button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  form {
+    padding: 1.5rem;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  .appointments-container {
+    padding: 1rem;
+  }
+
+  .hero-section {
+    height: 300px; /* shrink hero banner */
+  }
+
+  .hero-overlay h1 {
+    font-size: 40px;
+  }
+
+  .hero-overlay p {
+    font-size: 18px;
+  }
+
+  form h2 {
+    font-size: 1.5rem;
+  }
+
+  form input,
+  form textarea {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  form button {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+}
+
+/* Small mobiles */
+@media (max-width: 480px) {
+  .hero-section {
+    height: 220px;
+  }
+
+  .hero-overlay {
+    padding: 15px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 28px;
+  }
+
+  .hero-overlay p {
+    font-size: 14px;
+  }
+
+  .hero-overlay button {
+    width: 100%; /* full width button */
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  form {
+    padding: 1rem;
+  }
+
+  form h2 {
+    font-size: 1.2rem;
+  }
+}
